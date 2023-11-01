@@ -39,6 +39,8 @@ La aplicación se podrá acceder utilizando la siguiente URL http://localhost:34
 ## Resultados del despliegue
 A continuación se muestran evidencias de la ejecución de la aplicación una vez desplegada en la
 máquina de EC2 creada.
+### Instancia EC2 activa
+![ec2.png](img%2Fec2.png)
 ### Ejecución del container con la imagen creada
 ![docker.png](img%2Fdocker.png)
 ### Resultado del endpoint al consultar la instancia a través de internet
