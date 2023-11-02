@@ -4,6 +4,10 @@ El taller consiste en diseñar una aplicación web ligera usando Spark
 java (http://sparkjava.com/). Luego se utiliza docker para contenerizar la aplicación y poder desplegarla. A partir de este contenedor se creará
 una imagen que se almacenará en DockerHub para usarla durante el despliegue a AWS
 
+## Arquitectura utilizada
+La arquitectura de la aplicación se compone de una instancia de EC2 en la cual se ejecuta un container
+de Docker que representa un servidor web el cual se accede mediante el dns publico de la instancia y el puerto `42000`. A continuación se presenta un diagrama con la arquitectura.
+![docker1.png](img%2Fdocker1.png)
 ## Pre-requisitos
 * [Docker](https://www.docker.com/) - Administrador de contenedores
 * [Maven](https://maven.apache.org/) - Administrador de dependencias
